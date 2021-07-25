@@ -1,0 +1,15 @@
+apply from: "../module.build.gradle"
+android {
+    defaultConfig {
+        if (isModule.toBoolean()) {
+            applicationId "com.zte.zakker.me"
+        }
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':lib_common')
+    testImplementation 'org.testng:testng:6.9.6'
+    annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
+    annotationProcessor rootProject.ext.dependencies["dagger-compiler"]
+}

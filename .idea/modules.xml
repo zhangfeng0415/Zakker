@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Zakker.iml" filepath="$PROJECT_DIR$/.idea/Zakker.iml" group="Zakker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_common/lib_common.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_common/lib_common.iml" group="Zakker/lib_common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_fly_api/lib_fly_api.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_fly_api/lib_fly_api.iml" group="Zakker/lib_fly_api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_refresh_layout/lib_refresh_layout.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_refresh_layout/lib_refresh_layout.iml" group="Zakker/lib_refresh_layout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_app/module_app.iml" filepath="$PROJECT_DIR$/.idea/modules/module_app/module_app.iml" group="Zakker/module_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_find/module_find.iml" filepath="$PROJECT_DIR$/.idea/modules/module_find/module_find.iml" group="Zakker/module_find" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_main/module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_main/module_main.iml" group="Zakker/module_main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_me/module_me.iml" filepath="$PROJECT_DIR$/.idea/modules/module_me/module_me.iml" group="Zakker/module_me" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_news/module_news.iml" filepath="$PROJECT_DIR$/.idea/modules/module_news/module_news.iml" group="Zakker/module_news" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_test/module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/module_test/module_test.iml" group="Zakker/module_test" />
+    </modules>
+  </component>
+</project>
