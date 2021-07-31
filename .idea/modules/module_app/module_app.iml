@@ -162,6 +162,7 @@
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.8.0@aar" level="project" />
     <orderEntry type="module" module-name="module_main" />
     <orderEntry type="module" module-name="module_find" />
+    <orderEntry type="module" module-name="module_automation" />
     <orderEntry type="module" module-name="module_me" />
     <orderEntry type="module" module-name="module_news" />
     <orderEntry type="module" module-name="lib_common" />

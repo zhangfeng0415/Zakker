@@ -50,4 +50,5 @@ dependencies {
     api(rootProject.ext.dependencies["rxlifecycle-components"]) {
         exclude group: 'com.android.support'
     }
+    testImplementation 'junit:junit:4.12'
 }

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_fly_api/lib_fly_api.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_fly_api/lib_fly_api.iml" group="Zakker/lib_fly_api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_refresh_layout/lib_refresh_layout.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_refresh_layout/lib_refresh_layout.iml" group="Zakker/lib_refresh_layout" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_app/module_app.iml" filepath="$PROJECT_DIR$/.idea/modules/module_app/module_app.iml" group="Zakker/module_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_automation/module_automation.iml" filepath="$PROJECT_DIR$/.idea/modules/module_automation/module_automation.iml" group="Zakker/module_automation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_find/module_find.iml" filepath="$PROJECT_DIR$/.idea/modules/module_find/module_find.iml" group="Zakker/module_find" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_main/module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_main/module_main.iml" group="Zakker/module_main" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_me/module_me.iml" filepath="$PROJECT_DIR$/.idea/modules/module_me/module_me.iml" group="Zakker/module_me" />

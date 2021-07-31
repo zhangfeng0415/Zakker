@@ -92,7 +92,7 @@ public class MainNewsFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeV
     }
 
 
-    public void showListNewsType(List<com.zte.zakker.api.newstype.entity.NewsType> listNewsType) {
+    public void showListNewsType(List<NewsType> listNewsType) {
         KLog.v("MYTAG", "initNewsListFragment start..." + listNewsType.toString());
         mListFragments.clear();
         titles.clear();

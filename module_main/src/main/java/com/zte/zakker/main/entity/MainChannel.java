@@ -8,7 +8,7 @@ package com.zte.zakker.main.entity;
  * Update:     <br>
  */
 public enum MainChannel {
-    NEWS(0,"NEWS"), FIND(1,"FIND"),ME(2,"ME");
+    NEWS(0,"NEWS"), FIND(1,"FIND"), AUTOMATION(2,"AUTOMATION"), ME(3,"ME");
     public int id;
     public String name;
     MainChannel(int id, String name){
