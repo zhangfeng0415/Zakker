@@ -1,11 +1,11 @@
-package com.zte.zakker.find.provider;
+package com.zte.zakker.automation.provider;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.zte.zakker.common.provider.IAutomationProvider;
-import com.zte.zakker.find.fragment.MainAutomationFragment;
+import com.zte.zakker.automation.fragment.MainAutomationFragment;
 
 /**
  * Description: <FindProvider><br>

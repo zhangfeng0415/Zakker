@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.zte.zakker.common.mvvm.BaseActivity;
+import com.zte.zakker.common.provider.IAutomationProvider;
 import com.zte.zakker.common.provider.IFindProvider;
 import com.zte.zakker.common.provider.IMeProvider;
 import com.zte.zakker.common.provider.INewsProvider;
@@ -27,11 +28,15 @@ public class MainActivity extends BaseActivity {
     @Autowired(name = "/find/main")
     IFindProvider mFindProvider;
 
+    @Autowired(name = "/automation/main")
+    IAutomationProvider mAutomationProvider;
+
     @Autowired(name = "/me/main")
     IMeProvider mMeProvider;
 
     private Fragment mNewsFragment;
     private Fragment mFindFragment;
+    private Fragment mAutomationFragment;
     private Fragment mMeFragment;
     private Fragment mCurrFragment;
 
@@ -58,6 +63,11 @@ public class MainActivity extends BaseActivity {
                     mCurrFragment = mFindFragment;
 
                     return true;
+                } else if (i == R.id.navigation_automation) {
+                    switchContent(mCurrFragment, mAutomationFragment, MainChannel.AUTOMATION.name);
+                    mCurrFragment = mAutomationFragment;
+
+                    return true;
                 } else if (i == R.id.navigation_me) {
                     switchContent(mCurrFragment, mMeFragment, MainChannel.ME.name);
                     mCurrFragment = mMeFragment;
@@ -72,6 +82,9 @@ public class MainActivity extends BaseActivity {
         }
         if(mFindProvider != null){
             mFindFragment = mFindProvider.getMainFindFragment();
+        }
+        if(mAutomationProvider != null){
+            mAutomationFragment = mAutomationProvider.getMainFindFragment();
         }
         if(mMeProvider != null){
             mMeFragment = mMeProvider.getMainMeFragment();

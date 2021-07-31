@@ -1,9 +1,9 @@
-package com.zte.zakker.find.fragment;
+package com.zte.zakker.automation.fragment;
 
 import android.view.View;
 
 import com.zte.zakker.common.mvvm.BaseFragment;
-import com.zte.zakker.find.R;
+import com.zte.zakker.automation.R;
 
 /**
  * Description: <发现Fragment><br>
