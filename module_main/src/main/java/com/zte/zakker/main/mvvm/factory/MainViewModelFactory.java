@@ -32,9 +32,11 @@ public class MainViewModelFactory extends ViewModelProvider.NewInstanceFactory {
         }
         return INSTANCE;
     }
+
     private MainViewModelFactory(Application application) {
         this.mApplication = application;
     }
+
     @VisibleForTesting
     public static void destroyInstance() {
         INSTANCE = null;
