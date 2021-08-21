@@ -36,4 +36,10 @@ public class MainFindFragment extends BaseFragment {
     public String getToolbarTitle() {
         return null;
     }
+
+    @Override
+    public boolean enableToolbar() {
+        super.enableToolbar();
+        return true;
+    }
 }

@@ -3,11 +3,11 @@
 
     <item
         android:id="@+id/navigation_trip"
-        android:icon="@drawable/ic_bottom_trip"
+        android:icon="@drawable/ic_bottom_home"
         android:title="@string/title_news"/>
     <item
         android:id="@+id/navigation_discover"
-        android:icon="@drawable/ic_bottom_discover"
+        android:icon="@drawable/ic_bottom_store"
         android:title="@string/title_find"/>
     <item
         android:id="@+id/navigation_automation"
@@ -15,7 +15,7 @@
         android:title="@string/title_automation"/>
     <item
         android:id="@+id/navigation_me"
-        android:icon="@drawable/ic_bottom_my"
+        android:icon="@drawable/ic_bottom_me"
         android:title="@string/title_my"/>
 
 </menu>

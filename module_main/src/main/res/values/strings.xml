@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">module_main</string>
-    <string name="title_news">新闻</string>
-    <string name="title_find">发现</string>
+    <string name="title_news">智能家庭</string>
+    <string name="title_find">商城</string>
     <string name="title_automation">自动化</string>
     <string name="title_my">我的</string>
 </resources>

@@ -159,7 +159,7 @@ public abstract class BaseActivity extends RxAppCompatActivity implements IBaseV
     }
 
     public boolean enableToolbar() {
-        return true;
+        return false;
     }
 
     public void showInitLoadView(boolean show) {
