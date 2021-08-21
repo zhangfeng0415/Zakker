@@ -1,4 +1,4 @@
-package com.zte.zakker.find;
+package com.zte.zakker.automation;
 
 import org.junit.Test;
 
