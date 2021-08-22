@@ -91,7 +91,9 @@ public class RxAdapter {
         public Observable<T> apply(Throwable t) {
             ResponseThrowable exception = ExceptionHandler.handleException(t);
             if(exception.code ==  ExceptionHandler.SYSTEM_ERROR.TIMEOUT_ERROR ){
-                Toast.makeText(RetrofitManager.mContext,"网络不给力哦！",Toast.LENGTH_SHORT).show();
+                //remove data connect 0822 begin
+                //Toast.makeText(RetrofitManager.mContext,"网络不给力哦！",Toast.LENGTH_SHORT).show();
+                //remove data connect 0822 begin
             }
             return Observable.error(exception);
         }

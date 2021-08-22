@@ -43,9 +43,11 @@ public class RetrofitManager {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         okHttpBuilder = new OkHttpClient.Builder();
-        okHttpBuilder.connectTimeout(20 * 1000, TimeUnit.MILLISECONDS).
-                readTimeout(20 * 1000, TimeUnit.MILLISECONDS).
-                writeTimeout(20 * 1000, TimeUnit.MILLISECONDS);
+        //remove data connect 0822 begin
+        okHttpBuilder.connectTimeout(80, TimeUnit.MILLISECONDS).
+                readTimeout(80, TimeUnit.MILLISECONDS).
+                writeTimeout(80, TimeUnit.MILLISECONDS);
+        //remove data connect 0822  end
 
         okHttpBuilder.addInterceptor(logging);
         okHttpBuilder.addInterceptor(new Interceptor() {
