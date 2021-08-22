@@ -2,7 +2,7 @@ apply from: "../module.build.gradle"
 android {
     defaultConfig {
         if (isModule.toBoolean()) {
-            applicationId "com.zte.zakker.news"
+            applicationId "com.zte.zakker.home"
         }
     }
  }
