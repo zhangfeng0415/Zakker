@@ -1,12 +1,12 @@
-package com.zte.zakker.news.adapter;
+package com.zte.zakker.home.adapter;
 
 import android.content.Context;
 import android.databinding.ObservableArrayList;
 import android.view.View;
 import com.zte.zakker.api.news.entity.NewsDetail;
 import com.zte.zakker.common.adapter.BaseBindAdapter;
-import com.zte.zakker.news.R;
-import com.zte.zakker.news.databinding.ItemNewsListBinding;
+import com.zte.zakker.home.R;
+import com.zte.zakker.home.databinding.ItemNewsListBinding;
 
 /**
  * Description: <NewsListAdatper><br>

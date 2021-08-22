@@ -1,7 +1,6 @@
-package com.zte.zakker.news.mvvm.model;
+package com.zte.zakker.home.mvvm.model;
 
 import android.app.Application;
-import android.content.Context;
 
 import com.zte.zakker.api.NewsDetailService;
 import com.zte.zakker.api.RetrofitManager;
@@ -11,8 +10,6 @@ import com.zte.zakker.api.news.entity.NewsDetail;
 import com.zte.zakker.common.mvvm.model.BaseModel;
 
 import java.util.List;
-
-import javax.inject.Inject;
 
 import io.reactivex.Observable;
 

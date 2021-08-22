@@ -9,7 +9,7 @@ import com.zte.zakker.common.BaseApplication;
  * Version:     V1.0.0<br>
  * Update:     <br>
  */
-public class NewsApplication extends BaseApplication {
+public class HomeApplication extends BaseApplication {
     @Override
     public void onCreate() {
         super.onCreate();

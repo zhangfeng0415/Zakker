@@ -1,4 +1,4 @@
-package com.zte.zakker.news.fragment;
+package com.zte.zakker.home.fragment;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProvider;
@@ -17,9 +17,9 @@ import com.zte.zakker.api.newstype.entity.NewsType;
 import com.zte.zakker.common.event.me.NewsTypeCrudEvent;
 import com.zte.zakker.common.mvvm.BaseMvvmFragment;
 import com.zte.zakker.common.util.log.KLog;
-import com.zte.zakker.news.R;
-import com.zte.zakker.news.mvvm.factory.NewsViewModelFactory;
-import com.zte.zakker.news.mvvm.viewmodel.NewsTypeViewModel;
+import com.zte.zakker.home.R;
+import com.zte.zakker.home.mvvm.factory.NewsViewModelFactory;
+import com.zte.zakker.home.mvvm.viewmodel.NewsTypeViewModel;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -28,22 +28,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: <MainNewsFragment><br>
+ * Description: <MainHomeFragment><br>
  * Author:      mxdl<br>
  * Date:        2018/12/27<br>
  * Version:     V1.0.0<br>
  * Update:     <br>
  */
-public class MainNewsFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeViewModel> {
+public class MainHomeFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeViewModel> {
     private List<String> titles = new ArrayList<>();
     private List<NewsListFragment> mListFragments = new ArrayList<>();
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
-    private NewsFragmentAdapter mNewsFragmentAdapter;
+    private HomeFragmentAdapter mHomeFragmentAdapter;
     private boolean mIsfresh;
 
-    public static MainNewsFragment newInstance() {
-        return new MainNewsFragment();
+    public static MainHomeFragment newInstance() {
+        return new MainHomeFragment();
     }
 
     @Override
@@ -68,9 +68,9 @@ public class MainNewsFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeV
     }
 
     public void initTabLayout() {
-        mNewsFragmentAdapter = new NewsFragmentAdapter(getChildFragmentManager());
-        mViewPager.setAdapter(mNewsFragmentAdapter);
-        mNewsFragmentAdapter.refreshViewPager(mListFragments);
+        mHomeFragmentAdapter = new HomeFragmentAdapter(getChildFragmentManager());
+        mViewPager.setAdapter(mHomeFragmentAdapter);
+        mHomeFragmentAdapter.refreshViewPager(mListFragments);
 
         mTabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -131,11 +131,11 @@ public class MainNewsFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeV
         return 0;
     }
 
-    class NewsFragmentAdapter extends FragmentPagerAdapter {
+    class HomeFragmentAdapter extends FragmentPagerAdapter {
         public FragmentManager mFragmentManager;
         List<NewsListFragment> pages;
 
-        public NewsFragmentAdapter(FragmentManager fm) {
+        public HomeFragmentAdapter(FragmentManager fm) {
             super(fm);
             mFragmentManager = fm;
         }
@@ -201,7 +201,7 @@ public class MainNewsFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeV
             mIsfresh = false;
             mViewPager.setCurrentItem(mListFragments.size() - 1);
             initData();
-            mNewsFragmentAdapter.refreshViewPager(mListFragments);
+            mHomeFragmentAdapter.refreshViewPager(mListFragments);
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.zte.zakker.news.mvvm.viewmodel;
+package com.zte.zakker.home.mvvm.viewmodel;
 
 import android.app.Application;
 import android.support.annotation.NonNull;
@@ -6,11 +6,9 @@ import com.zte.zakker.api.dto.RespDTO;
 import com.zte.zakker.api.newstype.entity.NewsType;
 import com.zte.zakker.common.event.SingleLiveEvent;
 import com.zte.zakker.common.mvvm.viewmodel.BaseViewModel;
-import com.zte.zakker.news.mvvm.model.NewsTypeModel;
+import com.zte.zakker.home.mvvm.model.NewsTypeModel;
 
 import java.util.List;
-
-import javax.inject.Inject;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;

@@ -3,7 +3,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.zte.zakker.news.mvvm.viewmodel.NewsListViewModel"/>
+            type="com.zte.zakker.home.mvvm.viewmodel.NewsListViewModel"/>
     </data>
 
     <com.refresh.lib.DaisyRefreshLayout

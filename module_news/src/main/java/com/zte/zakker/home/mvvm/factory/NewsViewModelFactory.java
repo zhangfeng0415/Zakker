@@ -1,4 +1,4 @@
-package com.zte.zakker.news.mvvm.factory;
+package com.zte.zakker.home.mvvm.factory;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
@@ -6,12 +6,12 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
-import com.zte.zakker.news.mvvm.model.NewsDetailModel;
-import com.zte.zakker.news.mvvm.model.NewsListModel;
-import com.zte.zakker.news.mvvm.model.NewsTypeModel;
-import com.zte.zakker.news.mvvm.viewmodel.NewsDetailViewModel;
-import com.zte.zakker.news.mvvm.viewmodel.NewsListViewModel;
-import com.zte.zakker.news.mvvm.viewmodel.NewsTypeViewModel;
+import com.zte.zakker.home.mvvm.model.NewsDetailModel;
+import com.zte.zakker.home.mvvm.model.NewsListModel;
+import com.zte.zakker.home.mvvm.model.NewsTypeModel;
+import com.zte.zakker.home.mvvm.viewmodel.NewsDetailViewModel;
+import com.zte.zakker.home.mvvm.viewmodel.NewsListViewModel;
+import com.zte.zakker.home.mvvm.viewmodel.NewsTypeViewModel;
 
 /**
  * Description: <NewsViewModelFactory><br>

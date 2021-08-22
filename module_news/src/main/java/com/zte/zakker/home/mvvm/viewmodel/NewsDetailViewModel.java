@@ -1,4 +1,4 @@
-package com.zte.zakker.news.mvvm.viewmodel;
+package com.zte.zakker.home.mvvm.viewmodel;
 
 import android.app.Application;
 import android.databinding.ObservableField;
@@ -7,7 +7,7 @@ import com.zte.zakker.api.dto.RespDTO;
 import com.zte.zakker.api.news.entity.NewsDetail;
 import com.zte.zakker.common.mvvm.viewmodel.BaseViewModel;
 import com.zte.zakker.common.util.NetUtil;
-import com.zte.zakker.news.mvvm.model.NewsDetailModel;
+import com.zte.zakker.home.mvvm.model.NewsDetailModel;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;

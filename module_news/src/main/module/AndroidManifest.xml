@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.zte.zakker.news">
+          package="com.zte.zakker.home">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
@@ -26,10 +26,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name="debug.NewsApplication"
+        android:name="debug.HomeApplication"
         >
         <activity
-            android:name="com.zte.zakker.news.NewsDetailActivity"
+            android:name="com.zte.zakker.home.NewsDetailActivity"
             android:label="新闻详情"
             android:theme="@style/AppTheme.BackBar"
             >

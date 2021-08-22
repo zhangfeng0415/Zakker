@@ -1,4 +1,4 @@
-package com.zte.zakker.news.mvvm.model;
+package com.zte.zakker.home.mvvm.model;
 
 import android.app.Application;
 import com.zte.zakker.api.NewsTypeService;

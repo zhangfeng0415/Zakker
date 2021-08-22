@@ -11,7 +11,7 @@ import com.zte.zakker.common.mvvm.BaseActivity;
 import com.zte.zakker.common.provider.IAutomationProvider;
 import com.zte.zakker.common.provider.IFindProvider;
 import com.zte.zakker.common.provider.IMeProvider;
-import com.zte.zakker.common.provider.INewsProvider;
+import com.zte.zakker.common.provider.IHomeProvider;
 import com.zte.zakker.main.entity.MainChannel;
 
 /**
@@ -22,8 +22,8 @@ import com.zte.zakker.main.entity.MainChannel;
  * Update:     <br>
  */
 public class MainActivity extends BaseActivity {
-    @Autowired(name = "/news/main")
-    INewsProvider mNewsProvider;
+    @Autowired(name = "/home/main")
+    IHomeProvider mHomeProvider;
 
     @Autowired(name = "/find/main")
     IFindProvider mFindProvider;
@@ -34,7 +34,7 @@ public class MainActivity extends BaseActivity {
     @Autowired(name = "/me/main")
     IMeProvider mMeProvider;
 
-    private Fragment mNewsFragment;
+    private Fragment mHomeFragment;
     private Fragment mFindFragment;
     private Fragment mAutomationFragment;
     private Fragment mMeFragment;
@@ -53,12 +53,12 @@ public class MainActivity extends BaseActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 int i = menuItem.getItemId();
-                if (i == R.id.navigation_trip) {
-                    switchContent(mCurrFragment, mNewsFragment, MainChannel.NEWS.name);
-                    mCurrFragment = mNewsFragment;
+                if (i == R.id.navigation_home) {
+                    switchContent(mCurrFragment, mHomeFragment, MainChannel.NEWS.name);
+                    mCurrFragment = mHomeFragment;
 
                     return true;
-                } else if (i == R.id.navigation_discover) {
+                } else if (i == R.id.navigation_store) {
                     switchContent(mCurrFragment, mFindFragment, MainChannel.FIND.name);
                     mCurrFragment = mFindFragment;
 
@@ -77,8 +77,8 @@ public class MainActivity extends BaseActivity {
                 return false;
             }
         });
-        if(mNewsProvider != null){
-            mNewsFragment = mNewsProvider.getMainNewsFragment();
+        if(mHomeProvider != null){
+            mHomeFragment = mHomeProvider.getMainHomeFragment();
         }
         if(mFindProvider != null){
             mFindFragment = mFindProvider.getMainFindFragment();
@@ -89,9 +89,9 @@ public class MainActivity extends BaseActivity {
         if(mMeProvider != null){
             mMeFragment = mMeProvider.getMainMeFragment();
         }
-        mCurrFragment = mNewsFragment;
-        if(mNewsFragment != null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, mNewsFragment, MainChannel.NEWS.name).commit();
+        mCurrFragment = mHomeFragment;
+        if(mHomeFragment != null){
+            getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, mHomeFragment, MainChannel.NEWS.name).commit();
         }
     }
 

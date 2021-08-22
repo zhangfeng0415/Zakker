@@ -1,4 +1,4 @@
-package com.zte.zakker.news.fragment;
+package com.zte.zakker.home.fragment;
 
 
 import android.arch.lifecycle.ViewModelProvider;
@@ -14,13 +14,13 @@ import com.zte.zakker.common.event.me.NewsDetailCurdEvent;
 import com.zte.zakker.common.mvvm.BaseMvvmRefreshFragment;
 import com.zte.zakker.common.util.ObservableListUtil;
 import com.zte.zakker.common.util.log.KLog;
-import com.zte.zakker.news.BR;
-import com.zte.zakker.news.NewsDetailActivity;
-import com.zte.zakker.news.R;
-import com.zte.zakker.news.adapter.NewsListAdatper;
-import com.zte.zakker.news.databinding.FragmentNewsListBinding;
-import com.zte.zakker.news.mvvm.factory.NewsViewModelFactory;
-import com.zte.zakker.news.mvvm.viewmodel.NewsListViewModel;
+import com.zte.zakker.home.BR;
+import com.zte.zakker.home.NewsDetailActivity;
+import com.zte.zakker.home.R;
+import com.zte.zakker.home.adapter.NewsListAdatper;
+import com.zte.zakker.home.databinding.FragmentNewsListBinding;
+import com.zte.zakker.home.mvvm.factory.NewsViewModelFactory;
+import com.zte.zakker.home.mvvm.viewmodel.NewsListViewModel;
 
 import com.refresh.lib.DaisyRefreshLayout;
 

@@ -1,13 +1,13 @@
-package com.zte.zakker.news;
+package com.zte.zakker.home;
 
 import android.arch.lifecycle.ViewModelProvider;
 import android.content.Context;
 import android.content.Intent;
 import com.zte.zakker.common.event.KeyCode;
 import com.zte.zakker.common.mvvm.BaseMvvmActivity;
-import com.zte.zakker.news.databinding.ActivityNewsDetailBinding;
-import com.zte.zakker.news.mvvm.factory.NewsViewModelFactory;
-import com.zte.zakker.news.mvvm.viewmodel.NewsDetailViewModel;
+import com.zte.zakker.home.databinding.ActivityNewsDetailBinding;
+import com.zte.zakker.home.mvvm.factory.NewsViewModelFactory;
+import com.zte.zakker.home.mvvm.viewmodel.NewsDetailViewModel;
 /**
  * Description: <NewsDetailActivity><br>
  * Author:      mxdl<br>
