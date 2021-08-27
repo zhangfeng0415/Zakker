@@ -48,7 +48,7 @@ public class MainHomeFragment extends BaseMvvmFragment<ViewDataBinding,NewsTypeV
 
     @Override
     public int onBindLayout() {
-        return R.layout.fragment_news_main;
+        return R.layout.fragment_home_main;
     }
 
     @Override

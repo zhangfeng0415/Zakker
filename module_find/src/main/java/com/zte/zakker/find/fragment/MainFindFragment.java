@@ -19,7 +19,7 @@ public class MainFindFragment extends BaseFragment {
     }
     @Override
     public int onBindLayout() {
-        return R.layout.fragment_discover_main;
+        return R.layout.store_speed_plan;
     }
 
     @Override
@@ -37,9 +37,4 @@ public class MainFindFragment extends BaseFragment {
         return null;
     }
 
-    @Override
-    public boolean enableToolbar() {
-        super.enableToolbar();
-        return true;
-    }
 }

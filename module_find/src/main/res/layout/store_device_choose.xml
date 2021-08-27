@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/store_search_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/store_left_tab"/>
+
+        <LinearLayout
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="44dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="8dp"
+
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="设备选择"
+                android:textColor="#FFABABAB"
+                android:textSize="11sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="11dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="17dp"
+                    android:text="客厅"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#FF1D1D1F"
+                    android:textSize="11sp"
+                    />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/add"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/device_bg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="米家空调"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="13sp"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/device_bg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ZTE智能灯"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="13sp"/>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="11dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="17dp"
+                    android:text="卧室"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#FF1D1D1F"
+                    android:textSize="11sp"
+                    />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/add"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/device_bg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ZTE新风"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="13sp"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/device_bg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ZTE智能灯"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="13sp"/>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="11dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="17dp"
+                    android:text="厨房"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#FF1D1D1F"
+                    android:textSize="11sp"
+                    />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/add"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/device_bg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="米家油烟机"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="13sp"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="104dp">
+
+                <ImageView
+                    android:id="@+id/speed_plan_next"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/next_button_bg"/>
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="下一步"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="15sp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

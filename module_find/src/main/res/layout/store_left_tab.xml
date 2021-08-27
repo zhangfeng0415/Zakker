@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="104dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/solution"
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:foregroundGravity="center">
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="38dp"
+            android:background="@drawable/store_left_tab_button_bg"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="解决方案"
+            android:textColor="#F5F5F7"
+            android:textSize="13sp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="爆改专区"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="智能客厅"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="智能卧室"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="爆改餐厅"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="智能厨房"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="智能卫浴"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="智能亲子"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="爆改健康"
+        android:textSize="13sp"
+        android:textColor="#1D1D1F"/>
+
+</LinearLayout>
