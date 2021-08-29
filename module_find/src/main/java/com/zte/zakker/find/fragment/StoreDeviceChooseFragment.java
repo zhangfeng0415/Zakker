@@ -1,6 +1,5 @@
 package com.zte.zakker.find.fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -14,7 +13,6 @@ import android.widget.Toast;
 
 import com.zte.zakker.common.mvvm.BaseFragment;
 import com.zte.zakker.find.R;
-import com.zte.zakker.find.StoreDeviceChooseActivity;
 import com.zte.zakker.find.util.MyNumberPicker;
 
 /**
@@ -24,8 +22,8 @@ import com.zte.zakker.find.util.MyNumberPicker;
  * Version:     V1.0.0<br>
  * Update:     <br>
  */
-public class MainFindFragment extends BaseFragment implements NumberPicker.OnValueChangeListener,NumberPicker.OnScrollListener{
-    public static final String TAG = MainFindFragment.class.getSimpleName();
+public class StoreDeviceChooseFragment extends BaseFragment implements NumberPicker.OnValueChangeListener, NumberPicker.OnScrollListener {
+    public static final String TAG = StoreDeviceChooseFragment.class.getSimpleName();
     private MyNumberPicker mBedRoomNumberPicker;
     private MyNumberPicker mDiningRoomNumberPicker;
     private MyNumberPicker mRestroomNumberPicker;
@@ -33,12 +31,12 @@ public class MainFindFragment extends BaseFragment implements NumberPicker.OnVal
     private View mView;
     private ImageView nextButtonView;
     private ImageView mcustom_make_next;
-    public static MainFindFragment newInstance() {
-        return new MainFindFragment();
+    public static StoreDeviceChooseFragment newInstance() {
+        return new StoreDeviceChooseFragment();
     }
     @Override
     public int onBindLayout() {
-        return R.layout.store_speed_plan;
+        return R.layout.store_device_choose;
     }
 
     @Override
@@ -59,18 +57,19 @@ public class MainFindFragment extends BaseFragment implements NumberPicker.OnVal
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        mView =inflater.inflate(R.layout.store_speed_plan,container,false);
+        mView =inflater.inflate(R.layout.activity_main,container,false);
         initSpeedPlanNumberPicker();
         nextButtonView = mView.findViewById(R.id.next_button);
         nextButtonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mFragmentStore = new Intent(getContext(), StoreDeviceChooseActivity.class);
-                startActivity(mFragmentStore);
-
-//                StoreDeviceChooseFragment mStoreDeviceChooseFragment = new StoreDeviceChooseFragment();
-//                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-//                fragmentManager.beginTransaction().replace(R.id.store_speed_plan, mStoreDeviceChooseFragment).commit();
+//                Intent mFragmentStore = new Intent(getContext(), StoreDeviceChooseActivity.class);
+//                startActivity(mFragmentStore);
+//                FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+//                fragmentTransaction.hide(this,);
+                StoreDeviceChooseFragment mStoreDeviceChooseFragment = new StoreDeviceChooseFragment();
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.store_speed_plan, mStoreDeviceChooseFragment).commit();
             }
         });
         mcustom_make_next = mView.findViewById(R.id.custom_make_next);
@@ -82,6 +81,7 @@ public class MainFindFragment extends BaseFragment implements NumberPicker.OnVal
         });
         return mView;
     }
+
     private void initSpeedPlanNumberPicker() {
         mBedRoomNumberPicker = mView.findViewById(R.id.bed_room_number);
 //        mBedRoomNumberPicker.setFormatter(this);

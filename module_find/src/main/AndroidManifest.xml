@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".StoreDeviceChooseActivity"
+            android:label="StoreDeviceChooseActivity">
+        </activity>
+        <activity
+            android:name=".StoreDeviceChooseDetailActivity"
+            android:label="StoreDeviceChooseDetailActivity">
+        </activity>
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:label="ShoppingCartActivity">
+        </activity>
 
     </application>
 

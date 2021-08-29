@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/store_device_choose">
 
     <include layout="@layout/store_search_bar"/>
 
@@ -229,7 +230,7 @@
                 android:layout_marginTop="104dp">
 
                 <ImageView
-                    android:id="@+id/speed_plan_next"
+                    android:id="@+id/next_button"
                     android:layout_width="160dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"

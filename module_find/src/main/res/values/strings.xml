@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">module_find</string>
+    <string name="custom_make_warning">正在建设中，敬请期待~</string>
+    <string name="store_creation_warning">商城建设中，敬请期待~</string>
 </resources>

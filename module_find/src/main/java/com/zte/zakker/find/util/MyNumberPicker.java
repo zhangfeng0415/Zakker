@@ -28,6 +28,10 @@ public class MyNumberPicker extends NumberPicker {
         setPickerDividerColor(this);
     }
 
+    public MyNumberPicker(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+        setPickerDividerColor(this);
+    }
     @Override
     public void addView(View child) {
         super.addView(child);

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/arrow_back"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:text="购物车"
+            android:textColor="#FF000000"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFC2C2C2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/all_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="全部（3）"
+            android:textColor="#1D1D1F"
+            android:textSize="16sp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/bedroom_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="主卧"
+            android:textColor="#FF96969A"
+            android:textSize="13sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/second_bedroom_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="次卧"
+            android:textColor="#FF96969A"
+            android:textSize="13sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dining_room_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="餐厅"
+            android:textColor="#FF96969A"
+            android:textSize="13sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/device_bg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="73dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="米家空调"
+                android:textColor="#FF1D1D1F"
+                android:textSize="13sp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/device_bg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="73dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="ZTE智能灯"
+                android:textColor="#FF1D1D1F"
+                android:textSize="13sp"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/device_bg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="73dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="米家油烟机"
+                android:textColor="#FF1D1D1F"
+                android:textSize="13sp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginBottom="36dp">
+
+        <ImageView
+            android:id="@+id/pay_button"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next_button_bg"/>
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="一键付款"
+            android:textColor="#FFFFFFFF"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+
+</LinearLayout>

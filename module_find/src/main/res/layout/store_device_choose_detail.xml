@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/store_search_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/store_left_tab"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/prefer_choose_bg">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="购买成功后，会有专属客服为您提供详细的实施方案和安装方案"
+                        android:textColor="#FFFF0000"
+                        android:textSize="13sp"/>
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="44dp"
+                    android:layout_height="17dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="方案简介"
+                    android:textColor="#FFABABAB"
+                    android:textSize="11sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="22dp"
+                        android:layout_height="17dp"
+                        android:text="客厅"
+                        android:layout_gravity="left|center_vertical"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/expand_more"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="可提前设置空调、新风温度和开机时间；或根据屋内温度来自动开启；可设置晚间进门后自动开启客厅的灯，也可以在任意地方控制灯光的开启或明暗。"
+                    android:textColor="#FF1D1D1F"
+                    android:textSize="13sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="米家空调"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="ZTE智能灯"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Zakker盒子"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="216dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="#FFC2C2C2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="22dp"
+                        android:layout_height="17dp"
+                        android:text="卧室"
+                        android:layout_gravity="left|center_vertical"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/expand_less"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="卧室介绍"
+                    android:textColor="#FF1D1D1F"
+                    android:textSize="13sp"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ZTE新风"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="ZTE智能灯"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="216dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="#FFC2C2C2"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="22dp"
+                        android:layout_height="17dp"
+                        android:text="厨房"
+                        android:layout_gravity="left|center_vertical"
+                        android:textColor="#FF1D1D1F"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/expand_more"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="可提前设置空调、新风温度和开机时间；或根据屋内温度来自动开启；可设置晚间进门后自动开启客厅的灯，也可以在任意地方控制灯光的开启或明暗。"
+                    android:textColor="#FF1D1D1F"
+                    android:textSize="13sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="米家空调"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="ZTE智能灯"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Zakker盒子"
+                        android:textColor="#FF1C84FF"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="216dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="#FFC2C2C2"
+                    />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="28dp">
+
+                    <ImageView
+                        android:id="@+id/add_to_shopping_cart"
+                        android:layout_width="160dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/next_button_bg"/>
+
+                    <TextView
+                        android:layout_width="128dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="添加至购物车（8）"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="15sp" />
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
