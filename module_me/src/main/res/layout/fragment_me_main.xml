@@ -4,28 +4,57 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
-    <com.zte.zakker.common.view.SettingBarView
-        android:id="@+id/view_setting_news_type"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:set_left_icon="@drawable/me_icon_company"
-        app:set_left_icon_visable="true"
-        app:set_title="设置新闻类型"
-        />
+        android:layout_height="86dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="86dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="王女士的家"
+                android:textSize="30sp"
+                android:layout_marginTop="6dp"
+                android:textColor="#1D1D1F"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4个智能设备"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"
+                android:textColor="#1D1D1F"/>
+        </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="32dp"
-        android:background="#ededed"
-        />
 
-    <com.zte.zakker.common.view.SettingBarView
-        android:id="@+id/view_setting_news_detail"
+    </LinearLayout>
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:set_left_icon="@drawable/me_icon_organization"
-        app:set_left_icon_visable="true"
-        app:set_title="添加新闻"
-        />
+        android:layout_height="160dp" >
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="128dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_view"/>
+    </LinearLayout>
 </LinearLayout>

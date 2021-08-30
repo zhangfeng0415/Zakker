@@ -4,8 +4,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingStart="18dp"
-    android:paddingEnd="18dp"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,6 +34,32 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="automation"/>
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="推荐场景"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/list_recommend"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="更多玩法"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp" >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_play"/>
+    </LinearLayout>
 </LinearLayout>
