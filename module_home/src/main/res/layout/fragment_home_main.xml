@@ -40,21 +40,19 @@
                 android:id="@+id/all_tab"
                 android:layout_width="64dp"
                 android:layout_height="24dp"
-                android:background="@drawable/scene_tab_bg"
                 android:gravity="center"
                 android:text="全部"
                 android:textColor="#1D1D1F"
-                android:textSize="13sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/bedroom_tab"
                 android:layout_width="64dp"
                 android:layout_height="24dp"
                 android:layout_marginLeft="6dp"
-                android:background="@drawable/scene_tab_bg"
                 android:gravity="center"
                 android:text="主卧"
-                android:textColor="#1D1D1F"
+                android:textColor="#FF96969A"
                 android:textSize="13sp" />
 
             <TextView
@@ -62,10 +60,9 @@
                 android:layout_width="64dp"
                 android:layout_height="24dp"
                 android:layout_marginLeft="6dp"
-                android:background="@drawable/scene_tab_bg"
                 android:gravity="center"
                 android:text="次卧"
-                android:textColor="#1D1D1F"
+                android:textColor="#FF96969A"
                 android:textSize="13sp" />
 
             <TextView
@@ -73,10 +70,9 @@
                 android:layout_width="64dp"
                 android:layout_height="24dp"
                 android:layout_marginLeft="6dp"
-                android:background="@drawable/scene_tab_bg"
                 android:gravity="center"
                 android:text="餐厅"
-                android:textColor="#1D1D1F"
+                android:textColor="#FF96969A"
                 android:textSize="13sp" />
 
         </LinearLayout>
@@ -104,7 +100,7 @@
                         android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:background="#2196F3" />
+                        android:src="@mipmap/ic_smart_tv"/>
 
                     <TextView
                         android:layout_width="52dp"
@@ -152,15 +148,15 @@
                         android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:background="#2196F3" />
+                        android:src="@mipmap/ic_smart_socket"/>
 
                     <TextView
                         android:layout_width="52dp"
                         android:layout_height="19dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:text="智能电视"
-                        android:textSize="13sp" />
+                        android:text="智能插座"
+                        android:textSize="13sp"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -200,15 +196,15 @@
                         android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:background="#2196F3" />
+                        android:src="@mipmap/ic_smart_socket" />
 
                     <TextView
                         android:layout_width="52dp"
                         android:layout_height="19dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:text="智能电视"
-                        android:textSize="13sp" />
+                        android:text="智能插座"
+                        android:textSize="13sp"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -251,7 +247,7 @@
                         android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:background="#2196F3" />
+                        android:src="@mipmap/ic_smart_tv" />
 
                     <TextView
                         android:layout_width="52dp"
@@ -299,14 +295,14 @@
                         android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:background="#2196F3" />
+                        android:src="@mipmap/ic_smart_socket" />
 
                     <TextView
                         android:layout_width="52dp"
                         android:layout_height="19dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="6dp"
-                        android:text="智能电视"
+                        android:text="智能插座"
                         android:textSize="13sp" />
 
                     <LinearLayout

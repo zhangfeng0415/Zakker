@@ -41,13 +41,13 @@
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_marginLeft="48dp"
-            android:src="@drawable/search_bg"/>
+            android:src="@mipmap/ic_shopping_cart"/>
 
         <ImageView
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_marginLeft="8dp"
-            android:src="@drawable/search_bg"/>
+            android:src="@mipmap/ic_more_vert"/>
     </LinearLayout>
 
     <View
